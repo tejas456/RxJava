@@ -6,7 +6,7 @@
 
 RxJava is a Java VM implementation of [Reactive Extensions](http://reactivex.io): a library for composing asynchronous and event-based programs by using observable sequences.
 
-It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
+It extends the [observer pattern](http://en.wikipedia.org/wiki/Observer_pattern) to support sequences of data/events and adds operators that allow you to compose sequences together declaratively away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.
 
 #### Version 3.x ([Javadoc](http://reactivex.io/RxJava/3.x/javadoc/))
 
@@ -35,7 +35,7 @@ The [1.x version](https://github.com/ReactiveX/RxJava/tree/1.x) is end-of-life a
 
 ### Setting up the dependency
 
-The first step is to include RxJava 3 into your project, for example, as a Gradle compile dependency:
+The first step is include RxJava 3 into your project, for example, as a Gradle compile dependency:
 
 ```groovy
 implementation "io.reactivex.rxjava3:rxjava:3.x.y"
